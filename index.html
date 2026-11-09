@@ -77,7 +77,7 @@ button:focus-visible,input:focus-visible,label:focus-visible{outline:none;box-sh
 /* record */
 .rec-wrap{display:flex;flex-direction:column;align-items:center;padding:6px 0 4px}
 .rec-ring{width:230px;height:230px;position:relative;display:grid;place-items:center;margin:6px 0 8px}
-.rec-ring svg{position:absolute;inset:5px}
+.rec-ring>svg{position:absolute;inset:5px}
 .ripple{position:absolute;inset:40px;border-radius:999px;border:1px solid var(--primary);opacity:0;animation:ripple 3.2s ease-out infinite}
 .ripple.r2{animation-delay:1.6s}
 @keyframes ripple{0%{transform:scale(.85);opacity:.45}100%{transform:scale(1.35);opacity:0}}
